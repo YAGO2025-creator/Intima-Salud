@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Íntima Salud</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff0f5;
+      color: #4a0033;
+    }
+
+    header {
+      background-color: #8b004f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header img {
+      max-height: 80px;
+      margin-bottom: 10px;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .service {
+      background-color: #ffe6f0;
+      padding: 20px;
+      border-radius: 10px;
+      width: 250px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .contact-form {
+      max-width: 500px;
+      margin: auto;
+      background: #fff5f9;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+
+    .contact-form button {
+      background-color: #8b004f;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #4a0033;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+      text-decoration: none;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Logo de Íntima Salud" />
+    <h1>Íntima Salud</h1>
+    <p>Bienestar, educación y cuidado para ti</p>
+  </header>
+
+  <section>
+    <h2>Servicios</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Salud Reproductiva</h3>
+        <p>Atención personalizada en salud íntima y ginecológica.</p>
+      </div>
+      <div class="service">
+        <h3>Educación Sexual</h3>
+        <p>Talleres y charlas sobre sexualidad segura e informada.</p>
+      </div>
+      <div class="service">
+        <h3>Anticoncepción</h3>
+        <p>Asesoría y provisión de métodos anticonceptivos modernos.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contáctanos</h2>
+    <div class="contact-form">
+      <form action="mailto:tuemail@intimasalud.com" method="post" enctype="text/plain">
+        <input type="text" name="nombre" placeholder="Tu nombre" required />
+        <input type="email" name="email" placeholder="Tu correo" required />
+        <textarea name="mensaje" rows="5" placeholder="Tu mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Íntima Salud. Todos los derechos reservados.</p>
+  </footer>
+
+  <a class="whatsapp-button" href="https://wa.me/51912345678" target="_blank" title="Envíanos un WhatsApp">
+    &#x1F4AC;
+  </a>
+
+</body>
+</html>
